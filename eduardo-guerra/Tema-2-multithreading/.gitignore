@@ -1,0 +1,4 @@
+### .gitignore Tema-2-Multithreading ###
+.idea/*
+out/*
+*.iml
