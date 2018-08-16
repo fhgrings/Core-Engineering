@@ -1,0 +1,5 @@
+### .gitignore Tema-1-interfaces ###
+
+.idea/*
+*.iml
+out/*
