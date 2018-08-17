@@ -26,13 +26,11 @@ public class GerenteDeLampada {
 	 * Método que informa estado atual da lâmpada
 	 **/
 	public String estadoDaLampada() {
-		if (lampada.isOn()) {
-			lampada.off();
+		if (lampada.isOn()) 
 			return "Sua lâmpada está ligada";
-		} else {
-			lampada.on();
+		 else 
 			return "Sua lâmpada está desligada";
-		}
+		
 
 	}
 

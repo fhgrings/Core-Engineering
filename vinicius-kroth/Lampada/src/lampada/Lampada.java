@@ -8,6 +8,10 @@ public abstract class Lampada implements LampadaInterface {
 	 */
 	private boolean on;
 
+	public Lampada() {
+		on = false;
+	}
+
 	@Override
 	public void on() {
 		on = true;
@@ -19,10 +23,10 @@ public abstract class Lampada implements LampadaInterface {
 		on = false;
 
 	}
+
 	public boolean isOn() {
 		return on;
 
 	}
-	
 
 }
