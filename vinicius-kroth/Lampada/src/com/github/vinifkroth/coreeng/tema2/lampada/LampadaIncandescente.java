@@ -1,11 +1,8 @@
 package com.github.vinifkroth.coreeng.tema2.lampada;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 public class LampadaIncandescente implements Lampada {
 
 	private boolean estado;
-	private final int tempoDeAquecimento = ThreadLocalRandom.current().nextInt(20, 200);
 
 	public LampadaIncandescente() {
 		estado = false;
@@ -21,15 +18,6 @@ public class LampadaIncandescente implements Lampada {
 	public void off() {
 		estado = false;
 
-	}
-
-	public String tempoDeAquecimento() {
-		return "O tempo de aquecimento é de: " + tempoDeAquecimento;
-	}
-
-	@Override
-	public String toString() {
-		return "LampadaIncandescente [tempoDeAquecimento=" + tempoDeAquecimento + "]";
 	}
 
 	@Override

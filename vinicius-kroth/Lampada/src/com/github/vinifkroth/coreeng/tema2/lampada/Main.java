@@ -11,7 +11,6 @@ public class Main {
 		Interruptor gerenteIncandescente = new Interruptor(lampadaIncandescente);
 
 		System.out.println("########### OPERAÇÕES LAMPADA FLUORESCENTE ###########");
-		System.out.println(gerenteFluorescente.getInformacoes());
 		System.out.println(gerenteFluorescente.getEstado());
 		System.out.println(gerenteFluorescente.inverterEstado());
 		System.out.println(gerenteFluorescente.inverterEstado());
@@ -19,7 +18,6 @@ public class Main {
 		
 		
 		System.out.println("\n########### OPERAÇÕES LAMPADA INCADESCENTE ###########");
-		System.out.println(gerenteIncandescente.getInformacoes());
 		System.out.println(gerenteIncandescente.getEstado());
 		System.out.println(gerenteIncandescente.inverterEstado());
 		System.out.println(gerenteIncandescente.inverterEstado());

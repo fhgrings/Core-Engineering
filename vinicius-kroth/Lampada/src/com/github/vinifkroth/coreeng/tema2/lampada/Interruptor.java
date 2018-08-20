@@ -25,8 +25,4 @@ public class Interruptor {
 			return "Sua lâmpada está desligada";
 
 	}
-
-	public String getInformacoes() {
-		return lampada.toString();
-	}
 }
