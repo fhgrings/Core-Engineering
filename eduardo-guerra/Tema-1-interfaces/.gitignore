@@ -1,5 +1,3 @@
-### Arquivos que devem ser ignorados na tarefa 1 sobre interfaces ###
-
 .idea/*
 out/*
 *.iml
