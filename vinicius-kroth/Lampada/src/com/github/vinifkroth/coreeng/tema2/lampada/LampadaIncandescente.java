@@ -1,16 +1,28 @@
-package lampada;
+package com.github.vinifkroth.coreeng.tema2.lampada;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class LampadaIncandescente extends Lampada {
+public class LampadaIncandescente implements Lampada {
 
+	private boolean estado;
 	private final int tempoDeAquecimento = ThreadLocalRandom.current().nextInt(20, 200);
 
-	// Método toy realizado para diferenciar as classes
-	/**
-	 * Método que retorna o tempo de aquecimento necessário para a lâmpada ligar, em
-	 * milissegundos
-	 **/
+	public LampadaIncandescente() {
+		estado = false;
+	}
+
+	@Override
+	public void on() {
+		estado = true;
+
+	}
+
+	@Override
+	public void off() {
+		estado = false;
+
+	}
+
 	public String tempoDeAquecimento() {
 		return "O tempo de aquecimento é de: " + tempoDeAquecimento;
 	}
@@ -19,8 +31,10 @@ public class LampadaIncandescente extends Lampada {
 	public String toString() {
 		return "LampadaIncandescente [tempoDeAquecimento=" + tempoDeAquecimento + "]";
 	}
-	
-	
 
+	@Override
+	public boolean getEstado() {
+		return estado;
+	}
 
 }
