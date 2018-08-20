@@ -1,4 +1,4 @@
-package models;
+package com.github.brscherer.core_engineering.homework_1;
 
 public class Incandescent implements Lamp {
     @Override
