@@ -1,10 +1,11 @@
-package models;
+package com.github.brscherer.core_engineering.homework_2;
 
 import java.util.Random;
 
 public class OddThread extends Thread {
+    private Integer SLEEP_TIME = 100;
 
-    OddThread() {
+    public OddThread() {
         System.out.println("OddThread initialized");
         start();
     }
@@ -13,7 +14,7 @@ public class OddThread extends Thread {
         for (int i=0; i<10; i++) {
             try {
                 System.out.println("odd: " + randomOddNumber(1, 500));
-                Thread.sleep(100);
+                Thread.sleep(SLEEP_TIME);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
