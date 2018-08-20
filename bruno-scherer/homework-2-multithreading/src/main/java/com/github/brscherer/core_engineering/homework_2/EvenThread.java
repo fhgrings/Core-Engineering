@@ -7,7 +7,6 @@ public class EvenThread extends Thread {
 
     public EvenThread() {
         System.out.println("EvenThread initialized");
-        start();
     }
 
     public void run(){

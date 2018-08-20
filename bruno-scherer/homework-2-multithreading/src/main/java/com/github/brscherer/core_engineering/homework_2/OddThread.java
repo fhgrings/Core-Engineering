@@ -7,7 +7,6 @@ public class OddThread extends Thread {
 
     public OddThread() {
         System.out.println("OddThread initialized");
-        start();
     }
 
     public void run(){
