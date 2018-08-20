@@ -2,15 +2,12 @@ public class Main {
 
     public static void main(String args[]) {
 
-        Lampada lampada;
-        Abajur abajur;
-
-        lampada = new Incandescente();
-        abajur = new Abajur(lampada);
+        Lampada lampada = new Incandescente();
+        Abajur abajur = new Abajur(lampada);
 
         print(abajur);
 
-        abajur._switch();
+        abajur.switchLampada();
 
         print(abajur);
 
@@ -19,14 +16,14 @@ public class Main {
 
         print(abajur);
 
-        abajur._switch();
+        abajur.switchLampada();
 
         print(abajur);
 
     }
 
     private static void print(Abajur abajur) {
-        System.out.println("Abajur " + abajur.tipo() + " " + abajur.estado());
+        System.out.println("Abajur " + abajur.tipo() + " ligado: " + abajur.isOn());
     }
 
 }

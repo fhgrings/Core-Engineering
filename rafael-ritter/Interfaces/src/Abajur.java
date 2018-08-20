@@ -6,18 +6,14 @@ public class Abajur {
         this.lampada = lampada;
     }
 
-    public void _switch() {
+    public void switchLampada() {
         if(lampada.isOn())
             lampada.off();
         else
             lampada.on();
     }
 
-    public String estado() {
-        if(lampada.isOn())
-            return "ligado";
-        return "desligado";
-    }
+    public boolean isOn() { return lampada.isOn(); }
 
     public String tipo() {
         if(lampada instanceof LED)
