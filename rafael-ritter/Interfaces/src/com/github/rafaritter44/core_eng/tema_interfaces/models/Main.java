@@ -6,26 +6,14 @@ public class Main {
 
         Lampada lampada = new Incandescente();
         Abajur abajur = new Abajur(lampada);
-
-        print(abajur);
-
         abajur.switchLampada();
-
-        print(abajur);
+        abajur.switchLampada();
 
         lampada = new LED();
         abajur = new Abajur(lampada);
-
-        print(abajur);
-
+        abajur.switchLampada();
         abajur.switchLampada();
 
-        print(abajur);
-
-    }
-
-    private static void print(Abajur abajur) {
-        System.out.println("Abajur " + abajur.tipo() + " ligado: " + abajur.isOn());
     }
 
 }

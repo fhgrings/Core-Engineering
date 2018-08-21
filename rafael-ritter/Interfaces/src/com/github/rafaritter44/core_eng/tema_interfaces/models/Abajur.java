@@ -3,25 +3,21 @@ package com.github.rafaritter44.core_eng.tema_interfaces.models;
 public class Abajur {
 
     private Lampada lampada;
+    private boolean ligado;
 
     public Abajur(Lampada lampada) {
         this.lampada = lampada;
+        ligado = false;
     }
 
     public void switchLampada() {
-        if(lampada.isOn())
+        if(ligado) {
             lampada.off();
-        else
+            ligado = false;
+        } else {
             lampada.on();
-    }
-
-    public boolean isOn() { return lampada.isOn(); }
-
-    public String tipo() {
-        if(lampada instanceof LED)
-            return "LED";
-        else
-            return "Incandescente";
+            ligado = true;
+        }
     }
 
 }
