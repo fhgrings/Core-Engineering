@@ -1,31 +1,22 @@
-public class minhaThread extends Thread {
+package com.github.tema_1_threads;
 
-    //private String nome;
-    private int tempo;
-    private String tipo;
+public class ThreadImpar extends Thread {
+    String tipo;
+    int tempo;
 
 
-    public minhaThread(String tipo, int tempo) {
-        //this.nome = nome;
+    public ThreadImpar(String tipo, int tempo) {
         this.tempo = tempo;
         this.tipo = tipo;
-
-        start();
     }
 
     public void run() {
-
-
         try {
             while (true) {
                 if (tipo == "impar") {
                     int x=(int) (Math.random()*100);
                     x += (x%2==0?1:0);
                     System.out.println("Thread A #" + tipo + " " + x);
-                } else {
-                    int x=(int) (Math.random()*50);
-                    x = (x*2);
-                    System.out.println("Thread B #" + tipo + " " + x);
                 }
                 Thread.sleep(tempo);
             }
