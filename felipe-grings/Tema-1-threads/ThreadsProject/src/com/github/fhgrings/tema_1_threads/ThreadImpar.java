@@ -1,4 +1,4 @@
-package com.github.tema_1_threads;
+package com.github.fhgrings.tema_1_threads;
 
 public class ThreadImpar extends Thread {
     String tipo;
