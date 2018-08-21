@@ -6,6 +6,4 @@ public interface Lampada {
 
 	void off();
 
-	boolean getEstado();
-
 }

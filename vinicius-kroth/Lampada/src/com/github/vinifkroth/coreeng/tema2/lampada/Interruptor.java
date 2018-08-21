@@ -3,23 +3,26 @@ package com.github.vinifkroth.coreeng.tema2.lampada;
 public class Interruptor {
 
 	private Lampada lampada;
+	private boolean estado;
 
 	public Interruptor(Lampada lampada) {
 		this.lampada = lampada;
+		estado = false;
 	}
 
 	public String inverterEstado() {
-		if (lampada.getEstado()) {
-			lampada.off();
+		if (estado) {
+			estado = false;
 			return "Sua lâmpada foi apagada";
 		} else {
+			estado = true;
 			return "Sua lâmpada foi ligada";
 		}
 
 	}
 
 	public String getEstado() {
-		if (lampada.getEstado())
+		if (estado)
 			return "Sua lâmpada está ligada";
 		else
 			return "Sua lâmpada está desligada";

@@ -20,9 +20,4 @@ public class LampadaIncandescente implements Lampada {
 
 	}
 
-	@Override
-	public boolean getEstado() {
-		return estado;
-	}
-
 }
