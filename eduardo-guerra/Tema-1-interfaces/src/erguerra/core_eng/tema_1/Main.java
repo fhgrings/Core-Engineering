@@ -7,9 +7,9 @@ public class Main {
         Interruptor interruptorLed = new Interruptor(led);
         Interruptor interruptorFluorescente = new Interruptor(fluorescente);
 
-        interruptorLed.trocarEstadoLampada();
-        interruptorLed.trocarEstadoLampada();
-        interruptorFluorescente.trocarEstadoLampada();
-        interruptorFluorescente.trocarEstadoLampada();
+        interruptorLed.trocarEstado();
+        interruptorLed.trocarEstado();
+        interruptorFluorescente.trocarEstado();
+        interruptorFluorescente.trocarEstado();
     }
 }

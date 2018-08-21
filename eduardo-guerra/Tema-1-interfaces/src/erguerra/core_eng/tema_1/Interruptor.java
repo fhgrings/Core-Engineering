@@ -9,7 +9,7 @@ public class Interruptor {
         this.lampada = lampada;
     }
 
-    public void trocarEstadoLampada(){ //switch não foi possível por ser palavra reservada do Java
+    public void trocarEstado(){ //switch não foi possível por ser palavra reservada do Java
          if(ligada) {
              lampada.desligar();
              ligada = false;
