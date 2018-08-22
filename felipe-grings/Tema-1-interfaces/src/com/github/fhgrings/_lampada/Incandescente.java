@@ -1,4 +1,4 @@
-package com.github.fhgrings._threads;
+package com.github.fhgrings._lampada;
 
 public class Incandescente implements Lampada {
 
