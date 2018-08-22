@@ -1,4 +1,4 @@
-package com.github.fhgrings.tema_1_threads;
+package com.github.fhgrings._threads;
 
 public class Main {
 
