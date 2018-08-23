@@ -1,0 +1,10 @@
+###Git ignore
+
+gradle/
+out/
+gradlew*
+gladlew.bat
+.idea/
+.gradle/
+*.iml
+*.class
