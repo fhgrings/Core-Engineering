@@ -1,0 +1,20 @@
+## tema-1-interface ###
+.metadata
+bin/
+### Eclipse Patch ###
+# Eclipse Core
+.project
+.classpath
+.settings/
+.loadpath
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+### Java ###
+# Compiled class file
+*.class
+# Package Files #
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
