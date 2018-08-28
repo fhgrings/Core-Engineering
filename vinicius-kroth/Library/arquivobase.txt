@@ -1,0 +1,15 @@
+6
+$The old man and the sea;Ernest Hemingway;1;true
+$1984;George Orwell;2;true
+$Viagem ao centro da terra;Júlio Verne;3;true
+$Iracema;José de Alencar;4;true
+$Revolução dos bixos;George Orwell;5;true
+$Harry Potter e a pedra filosofal;J.K Rolling;6;false
+&Tarzan Serpa;0;44566325478
+&Steven Spielberg;1;66533945269
+&Vinicius Kroth;5;0273130051
+#4;0273130051;2018-08-23
+#5;66533945269;2018-08-23
+#3;0273130051;2018-08-23
+#2;0273130051;2018-08-24
+#1;0273130051;2018-08-24
