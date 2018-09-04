@@ -1,0 +1,5 @@
+### testeLampadas ###
+.gradle
+.idea
+*.iml
+*.class
