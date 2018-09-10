@@ -1,0 +1,5 @@
+### tema factory ###
+.gradle
+.idea
+*.iml
+*.class
