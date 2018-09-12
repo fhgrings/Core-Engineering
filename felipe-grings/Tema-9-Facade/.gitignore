@@ -1,0 +1,13 @@
+.idea/*
+out/*
+
+*.iml
+*.xml
+
+.idea
+idea/*
+
+.gradle
+gradle/*
+
+*.bat
