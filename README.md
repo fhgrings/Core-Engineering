@@ -1,1 +1,9 @@
-# jts.core-engineering.2018.2
+##Core Engineering Tasks
+
+This is some examples of studies about core engineering as;
+- Java 
+- SQL
+- Unit tests
+- Design Patterns
+
+
